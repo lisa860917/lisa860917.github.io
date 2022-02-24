@@ -1,0 +1,38 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex; 
+    /* 彈性容器 */
+    flex-wrap: wrap;
+}
+.intro-block .row{
+    align-items: center;
+}
+.Lisa{
+    width:20%
+}
+.Lisa img{
+    width: 80%;
+    border-radius:50%;
+}
+
+.content{
+    width:80%
+}
+
+.contact-me ul{
+    list-style: none;
+    padding:0;
+}
+
+.contact-me>ul li{
+    display:inline;
+    padding: 0 5px;
+}
+
+.primary{
+    color:blueviolet
+}
